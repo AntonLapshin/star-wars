@@ -1,0 +1,19 @@
+.character-details {
+  padding: 0.5rem;
+}
+
+.character-details ul {
+  list-style: none;
+}
+
+.character-details li {
+  margin-bottom: 0.5rem;
+}
+
+.character-details .value {
+  padding-left: 3rem;
+}
+
+.title {
+  font-weight: bold;
+}
