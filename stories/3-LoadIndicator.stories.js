@@ -1,5 +1,5 @@
 import React from 'react';
-import { LoadIndicator } from '../src/components/LoadIndicator/LoadIndicator';
+import { LoadIndicator } from 'components';
 
 export default {
   title: 'LoadIndicator'

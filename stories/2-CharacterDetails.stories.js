@@ -1,5 +1,5 @@
 import React from 'react';
-import { CharacterDetails } from '../src/components/CharacterDetails/CharacterDetails';
+import { CharacterDetails } from 'components';
 
 export default {
   title: 'CharacterDetails'

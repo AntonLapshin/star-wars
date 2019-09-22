@@ -1,6 +1,6 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { Character } from '../src/components/Character/Character';
+import { Character } from 'components';
 
 export default {
   title: 'Character'

@@ -1,11 +1,8 @@
 import React from 'react';
 import './Dashboard.css';
-import { Search } from '../../components/Search/Search';
-import { Character } from '../../components/Character/Character';
-import { CharacterDetails } from '../../components/CharacterDetails/CharacterDetails';
+import { Search, Character, CharacterDetails, LoadIndicator } from 'components';
 import { debounce } from 'lodash';
-import { LoadIndicator } from '../../components/LoadIndicator/LoadIndicator';
-import { pageSize, search, loadMore } from '../../services/data-provider';
+import { pageSize, search, loadMore } from 'services/data-provider';
 
 class Dashboard extends React.PureComponent {
   state = {

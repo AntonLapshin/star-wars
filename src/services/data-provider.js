@@ -18,6 +18,7 @@ const request = async url => {
  * Calls the Star Wars API to get the data by search pattern
  * @param {string} pattern
  * @returns {Promise<object>} The first page of the results
+ * @throws {Exception} Get request error
  */
 export const search = pattern => request(URL + pattern);
 
@@ -27,5 +28,6 @@ export const search = pattern => request(URL + pattern);
  *
  * @param {string} nextUrl
  * @returns {Promise<object>} The next page of the results
+ * @throws {Exception} Get request error
  */
 export const loadMore = request;
